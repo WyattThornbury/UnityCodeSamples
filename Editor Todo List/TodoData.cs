@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TodoData : ScriptableObject
 {
-    public List<TodoSlot> slots = null;
+    public List<TodoSlot> slots = new List<TodoSlot>();
 
     public void AddTodo(TodoSlot dataHolder)
     {
